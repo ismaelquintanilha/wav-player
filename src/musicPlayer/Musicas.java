@@ -1,4 +1,4 @@
-package MusicPlayer
+package musicPlayer
 
 import java.io.IOException;
 import java.nio.file.*;
