@@ -6,7 +6,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BuscadordeMusicas {
+public class Musicas {
 
     public static List<String> buscarMusicas() {
         String diretorioUsuario = System.getProperty("user.home");
