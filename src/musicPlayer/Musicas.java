@@ -23,7 +23,7 @@ public class Musicas {
 
                 public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
                     String nomeDoArquivo = file.getFileName().toString();
-                    if (nomeDoArquivo.toLowerCase().endsWith(".mp3")) {
+                    if (nomeDoArquivo.toLowerCase().endsWith(".wav")) {
                         nomesDasMusicas.add(nomeDoArquivo); // Adiciona na nossa lista
                     }
                     return FileVisitResult.CONTINUE; // Diz para a busca continuar
